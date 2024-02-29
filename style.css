@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #23395b;
+}
+  
+h1 {
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#odin {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #59c9a5;
+}
+
+#choices {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+#grid-size {
+    font-weight: 400;
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 0 15px;
+}
+
+#color-options div {
+    margin: 0 5px;
+    text-align: left;
+}
+
+input {
+    margin: 0 10px;
+}
+
+input:checked{
+    width: 15px;
+    height: 15px;
+    appearance: none;
+    border: 1px solid white;
+    background-color: #59c9a5;
+}
+
+label {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#container {
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+} 
+  
+.grid-cell {
+    border: 1px solid #ddd;
+    min-height: 20px;
+    min-width: 20px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+

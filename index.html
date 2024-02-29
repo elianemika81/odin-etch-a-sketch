@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Etch-a-Sketch</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Project: Etch-a-Sketch</h1>
+        <p id="odin">Project: Etch-a-Sketch from <a href="https://www.theodinproject.com/lessons/foundations-etch-a-sketch" target="_blank">The Odin Project</a></p>
+        <p>Let's get it started!</p>
+
+        <div id="choices">
+            <button id="grid-size">Click here...</button>
+            <div id="color-options">
+                <div>
+                    <input type="checkbox" id="one-color"/>
+                    <label>and get a color:</label>
+                    <input type="color" id="get-color" value="#d81e5b" />
+                </div>
+                <div>
+                    <input type="checkbox" id="all-colors"/>
+                    <label>or get 'em all!</label>
+                </div>
+            </div>
+        </div>  
+
+        <div id="container"></div>
+    </main>
+</body>
+</html>
